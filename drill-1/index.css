@@ -1,0 +1,33 @@
+.top-section {
+  height: 200px;
+  background-color: rgb(73,67,67);
+}
+
+.columns {
+  position: relative;
+  height: 540px;
+  width: 170px;
+  background-color: grey;
+  z-index: 5;
+}
+
+#left-column {
+  float: left;
+}
+
+#right-column {
+  float: right;
+}
+
+#bottom-column {
+  float: middle;
+}
+
+.bottom {
+  z-index: 2;
+  position: fixed;
+  bottom: 0px;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
